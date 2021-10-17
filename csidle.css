@@ -1,0 +1,215 @@
+#drop_note {
+	transition:0.3s;
+    border-radius:4px;
+    padding:2px;
+    font-family:'Open Sans', Segoe UI Light;
+    visibility:hidden;
+}
+
+.game-wrapper, .stats-container {
+display:inline-block;
+min-width:1150px;
+}
+#caseAm, #keysAm {
+width:40px;
+}
+body {
+background: url("img/bonus.jpg");
+color:white;
+font-family:'Open Sans', 'Segoe UI Light', sans-serif;
+}
+#drops_list {
+font-family: 'Open Sans', 'Segoe UI Light', sans-serif;
+font-size: 14px;
+height:400px;
+color:white;
+padding:15px;
+overflow:auto;
+width:620px;
+
+}
+#listcontainer {
+margin:5px;
+float:left;
+height:450px;
+width:615px;
+border-radius:5px;
+box-shadow:0 0 10px black;
+}
+#money {
+color:lime;
+font-size:18px;
+}
+h2 {
+color:white;
+font-family:'Open Sans', 'Segoe UI Light', sans-serif;
+}
+.tabHeader {
+font-size:24px;
+margin:3px 0 0 12px;
+width:100%;
+text-align:left;
+float:left;
+padding-bottom:8px;
+}
+
+#caseMenu, #statsTab, #shopTab, #listcontainer {
+border-radius:5px;
+background:rgba(0,0,0,0.7);
+height:500px;
+box-shadow:0 0 10px black;
+border:2px solid lightblue;
+}
+
+#caseMenu, #statsTab  {
+
+margin:5px;
+float:left;
+text-align:center;
+color:white;
+}
+
+#caseMenu {
+width:240px;
+}
+#statsTab {
+width:250px;
+}
+#shopTab {
+font-size:14px;
+width:615px;
+float:left;
+height:100px;
+background:rgba(0,0,0,0.7);
+box-shadow:0 0 10px black;
+border-radius:5px;
+margin:5px;
+color:white;
+clear:both;
+
+}
+select {
+border-radius:4px;
+border:2px solid maroon;
+background:#444;
+color:white;
+}
+select:disabled {
+color:gray;
+}
+#caseItemImage {
+width:128px;
+height:128px;
+display:inline-block;
+margin:0 0 0 5px;
+background-image:url("http://puu.sh/eyKk5/7f3aae18ab.jpg");
+background-size:100% 100%;
+background-repeat:no-repeat;
+border-radius:100%;
+border:3px solid white;
+transition:0.3s;
+}
+button {
+cursor:pointer;
+border:1px solid maroon;
+background:white;
+color:black;
+padding:4px 10px 4px 10px;
+border-radius:4px;
+transition:0.2s;
+}
+button:hover {
+background:#999;
+}
+button:disabled {
+color:gray;
+}
+#buyKnifeBtn{
+border:none;
+float:left;
+margin:5px 0 0 10px;
+width:104px;
+height:40px;
+background:green;
+border-radius:2px;
+font-size:18px;
+font-family:'Open Sans';
+font-weight:400;
+transition:0.2s;
+}
+#buyKnifeBtn:hover {
+font-weight:600;
+box-shadow:0 0 5px white;
+}
+
+#rankImage {
+width:128px;
+margin:-10px 0 0 0;
+}
+
+.caseMenuText {
+margin:25px 0 0 10px;
+color:white;
+}
+#knifeSale {
+float:left;
+display:block;
+clear:both;
+width:100px;
+height:100px;
+background: url("http://csgostash.com/img/containers/case38.png");
+background-size:130px;
+background-position:-3px 4px;
+border:2px white solid;
+margin:5px 0 0 10px;
+}
+
+.itemBoxWrapper {
+width:600px;
+height:70px;
+line-height:50px;
+font-size:18px;
+}
+.itemBox {
+width:85px;
+height:55px;
+border-radius:4px;
+background-size:100%;
+background-position:0 -12px;
+background-repeat:no-repeat;
+background-color:#444;
+float:left;
+}
+.itemBoxText {
+width:auto;
+padding:0 3px 0 3px;
+height:15px;
+background-color:rgba(0,0,0,0.6);
+font-size:12px;
+text-align:center;
+line-height:15px;
+color:white;
+border-radius:0 0 0 4px;
+float:right;	
+}
+
+#groupBtn {
+background:lime;
+font-family:'Open Sans', Segoe UI Light, sans-serif;
+border:1px solid white;
+box-shadow:0 4px 0 green;
+text-shadow:1px 1px 1px black;
+}
+
+
+.footer {
+position:absolute;
+top:5px;
+right:5px;
+text-align:center;
+height:20px;
+font-size:10px;
+}
+a {
+color:lightblue;
+}
